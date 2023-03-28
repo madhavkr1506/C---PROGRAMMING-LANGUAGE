@@ -17,9 +17,9 @@ int main(){
     for (i=0;i<num;i++){
         arr3[i]=arr1[i]*arr2[i];
     }
-    printf("Sum of the elements of two array are as follow : \n");
+    printf("Multiplication of the elements of two array are as follow : \n");
     for (i=0;i<num;i++){
-        printf("sum of %d index elements of two array is = ",i);
+        printf("Multiplication of %d index elements of two array is = ",i);
         printf("%d\n",arr3[i]);
     }
 return 0;
